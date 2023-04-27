@@ -27,7 +27,7 @@
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
-        padding-top: 100px;
+        padding-top: 121px;
         
         
       }
@@ -500,6 +500,10 @@
 .about img {
   max-width: 303px;
   margin-left: 0px;
+}
+
+.header ul{
+  padding-right: 15px
 }
 
 
