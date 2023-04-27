@@ -451,10 +451,6 @@
     display: flex;
     flex-direction: column-reverse;
   }
-
-}
-
-@media (max-width: 600px){
   .menu{
     flex-direction: column;
     align-items: center;
@@ -469,5 +465,25 @@
     
   }
 
-
 }
+
+
+@media (max-width: 480px){
+
+  .front{
+    width: auto;
+  }
+
+  .front h2{
+    font-size: 1.5rem;
+  }
+  
+  .front p{
+  color: #767676;
+  font-size: 16px;
+  width: 400px;
+  
+  }
+}
+
+
