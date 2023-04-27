@@ -484,6 +484,16 @@
   width: 400px;
   
   }
+  .section_icon {
+    display: flex;
+    flex-direction: column;
+   
+ }
+
+
+
+
+
 }
 
 
