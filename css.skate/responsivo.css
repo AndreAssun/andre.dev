@@ -1,0 +1,186 @@
+/*Estilo para tablets*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+	/*Qualidade Home*/
+.qualidade::after{
+		
+		right: 66px;
+
+	}
+
+	.qualidade_lista li{
+		padding: 0 10px;
+
+	}
+
+	#mais{
+		margin-top: 0px;
+	}
+
+		/*Qualidade Footer*/
+
+	.footer_redes ul li{
+		display: inline-block ;
+		border: solid 3px #fec63e;
+		padding: 5px;
+		
+		}	
+
+		.footer_redes ul li img{
+			width: 26px;
+			height: 26px;
+
+		}
+		.produto_item h2{
+			top: -150px;
+			margin-bottom: -56px;
+		}
+		.produto_icone {
+			padding: 41px 0;
+			
+		}
+		.produto_info p{
+			color: #fff;
+			padding: 11px 30px ;
+			font-size: 14px;
+			height: 122px;
+			line-height: 25px;
+			padding-bottom: 10px;
+			
+		}
+		.produto_info ul li{
+			background-color: #fec63e;
+			text-transform: uppercase;
+			font-size: 18px;
+			line-height: 20px;
+			float: left;
+			width: 181px;
+			height: 49px;
+			text-align: center;
+			padding-top: 16px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			
+		}
+		
+}
+
+/* 	Final do estilo para tablet*/
+
+
+/*Estilo para smartphones*/
+@media only screen and (max-width: 787px) {
+.header{
+	position:relative ;
+	padding-bottom: 0px;
+}
+
+.header img{
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.header_menu{
+	text-align: center;
+}
+
+.header_menu ul li{
+	margin:5px;
+
+}
+
+.header_menu ul li a {
+		
+		border: 3px solid #000;
+		width: 136px;
+		display: block;
+		float: left;
+	}
+.header_menu ul li a:hover {
+		border-color: #fff;
+}
+.header_menu ul li a.menu_ativo {
+  border-color: #fff;
+}
+/*Introducao*/
+
+.introducao h1{
+	font-size: 36px;
+
+}
+.introducao {
+margin-top: 0;
+padding-top: 40px;
+background-image: url(/BikCraftWeb/img/adolescentes-rebeldes-de-tiro-completo-com-skates.jpg);
+background-size: cover;
+
+}
+/*Introdução interna*/
+.introducao-interna {
+  
+  margin-top: 0px;
+  
+  
+}
+
+.produto_item h2{
+	top: -100px;
+	margin-bottom: -68px;
+}
+.produto_icone {
+	padding: 11px 0;
+}
+
+.produto_info p{
+  padding: 30px 40px ;
+  font-size: 14px;
+	height: auto;
+  line-height: 20px;
+  
+}
+
+.produto_info ul li{
+  width: 149px;
+  height: 49px;
+	font-size: 14px;
+	line-height: 20px;
+	
+  
+}
+.form{
+  padding-right: 0px;
+}
+.orcamento_dados ul{
+  padding-right: 0px;
+}
+
+/*Call*/
+
+.call {
+  padding-top: 10px;
+ 
+}
+	/*Qualidade Home*/
+	.qualidade::after{
+		display: none;
+
+	}
+/*Missão sobre*/
+.missao_sobre p{
+
+  padding-right: 0px;
+  
+}
+
+/*Contato*/
+
+.contato_form {
+padding-right: 0px;
+}
+
+
+
+}
+
+
+/* 	Final do estilo para smartphone*/

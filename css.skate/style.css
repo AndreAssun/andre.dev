@@ -1,0 +1,532 @@
+/* Estilos Gerais*/
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+img{
+  display: block;
+  max-width: 100%; /*essa propriedade faz as imagens ja ficarem resposivas (media query). */
+}
+.btn {
+  border: 3px solid #080808;
+  padding: 10px 30px;
+  color: #181818;
+  font-size: 14px ;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+}
+.btn-portfolio{
+  border: 3px solid #ffffff;
+  padding: 10px 30px;
+  color: #f1f1f1;
+  font-size: 14px ;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: .1em;
+
+}
+.btn-portfolio:hover{
+  color: #fec63e;
+  border-color: #fec63e;
+  transition: 1s;
+
+}
+
+.btn:hover {
+  color: #fec63e;
+  border-color: #fec63e;
+  
+  
+}
+#btn-intro{
+  text-transform: uppercase;
+  color: rgb(245, 245, 245);
+  border: solid 1px #f1f1f1;
+  align-items: center;
+  letter-spacing: 8px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+.btn.btn-preto:hover{
+  color: #fec63e;;
+  border-color: #fec63e;
+  transition: 0.5s;
+
+}
+
+.subtitulo{
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 24px;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 70px;
+  letter-spacing: .4em;
+
+}
+
+
+.subtitulo-interno{
+  font-weight: bold;
+  line-height: 30px;
+  font-size: 24px;
+  letter-spacing: .1em;
+  color: #000;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+
+}
+.subtitulo-interno::after{
+  content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+  display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 8px 0 ;
+
+}
+
+
+/* Header*/
+
+#teste{
+  width: 120px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1f1e1e; /* Amarelo */
+  padding: 20px 0;
+  z-index: 1000;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.452);
+  
+
+  
+}
+
+.header_menu {
+  text-align: right;
+  
+}
+.header_menu ul li {  /* o UL é bloco. aqui transformamos ele em INLINE*/
+
+  display: inline-block;
+  margin-left: 60px;
+  margin-top: 20px
+}
+
+
+.header_menu ul li a {
+  color: #f5f3f3;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 10px 0; /* aumentando a area de contato (bom pra quem usa mobile) */
+
+}
+
+.header_menu ul li a:hover {
+  color: #fec63e;
+  transition: 1s;
+}
+/*Introdução*/
+
+.header_menu ul li a.menu_ativo {
+  color: #FFF;
+}
+
+.introducao {
+  width: 100%;
+  height: 380px;
+  background: url(/img.skate/bg.jpg) no-repeat center;
+  background-size: cover ;
+  margin-top: 92px ;
+  text-align: center;
+  padding-top: 80px  ;
+}
+
+.introducao h1{
+  font-size: 48px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 8pt;
+}
+
+
+.quote-externo {  /* citação */
+  max-width: 320px;
+  margin: 0 auto; 
+  margin-bottom: 40px;
+  color: white;
+  letter-spacing: 1pt;
+}
+
+.quote-externo p {  
+  font-style: italic;
+}
+.quote-externo p::before, .quote-externo p::after {   /* elemento EM ESTILO criado antes do p com :before e :after */
+  content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+  display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+  width: 60px;
+  height: 3px;
+  background-color: #FFF;
+  margin: 14px auto 10px auto;
+}
+
+.quote-externo cite { 
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: .1em;
+  letter-spacing: 5pt;
+}
+
+.quote-externo p {  
+  font-style: italic;
+}
+
+/*Introdução Interna*/
+.introducao-interna {
+  width: 100%;
+  margin-top: 92px;
+  height: 160px;
+  text-align: center;
+  color: #FFF;
+  padding-top: 30px;
+  
+}
+
+.introducao-interna h1{
+  font-size: 36px ;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 10px;
+ 
+  
+
+
+}
+.introducao-interna h1::after{
+content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+width: 60px;
+height: 3px;
+background-color: #FFF;
+margin: 6px auto 10px auto;
+}
+
+
+
+/*PRODUTOS*/
+
+.produtos {
+  padding: 5px 0;
+  
+  
+}
+.produtos_lista li {
+  background-color: #fec63e;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: rgba(0, 0, 0, 0.45) ;
+  
+}
+
+.produtos_lista li img {
+  
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.produtos_lista li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 20px;
+  
+}
+
+.produtos_lista li h3::after {
+  content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+  display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+  width: 60px;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+  margin: 2px auto ;
+}
+
+.produtos_lista li p{
+  padding: 10px 20px 20px 20px;
+
+}
+
+.produtos_icone {
+  background-color: #000;
+  
+  
+  
+  
+}
+
+.call {
+  padding-top: 40px;
+  text-align: center;
+  clear: both; /**/
+  padding-bottom: 60px
+  
+}
+
+.call p{
+  margin-bottom: 40px;
+}
+/*PORFÓLIO*/
+.portfolio{
+  background-color: #000;
+  width: 100%;
+  padding: 60px;
+  
+}
+.portfolio h2 {
+  margin-top: 70px;
+  
+
+}
+.portfolio h2::after {
+  content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+  display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+  width: 60px;
+  height: 3px;
+  background-color: #fec63e;
+  margin: 14px auto 10px auto;
+}
+
+.portfolio .subtitulo{
+  color: #fec63e;
+}
+
+.portfolio .subtitulo::after{
+
+  color: #fec63e;
+}
+
+#portfolio_lista{
+  margin-top: 20px;
+}
+
+.portfolio p{
+  color: #FFF;
+}
+
+  
+/*Qualidade*/
+
+.qualidade{
+  padding: 60px 0;
+
+}
+
+.qualidade::after{
+  width: 634px;
+  height: 84px;
+  display: block;
+  position: absolute;
+  top:250px;
+  right: 162px;
+  z-index: -1;
+}
+
+.qualidade img {
+  margin: 0 auto; 
+  max-width: 320px;
+  padding-bottom:50px;
+
+}
+
+.qualidade_lista {
+  padding-top: 20px;
+}
+
+.qualidade_lista li{
+  text-align: center;
+  padding: 0 40px;
+  
+}
+
+.qualidade_lista li  p {
+  margin-top: 20px;
+}
+.qualidade_lista li h3{
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+text-transform: uppercase;
+letter-spacing: .1em;
+margin-top: 20px;
+}
+
+.qualidade_lista li h3::after {
+  content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+  display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 2px auto ;
+ 
+}
+#mais{
+  margin-top: 40px;
+}
+
+
+/*Quebra*/
+.quebra {
+  width: 100%;
+  height: 220px;
+  background: url(/img.skate/caras-patinam-na-piscina.jpg) no-repeat;
+  background-size: cover ;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.quebra .quote-externo {
+  max-width: 400px;
+
+}
+
+/*Footer*/
+
+.footer{
+  background-color: #000;
+  color: #FFF;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.footer h3{
+  font-size: 18px;
+  line-height: 25px;
+  color: #fec63e;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: bold;
+}
+
+.footer h3::after{
+  
+    content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+    display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+    width: 60px;
+    height: 3px;
+    background-color: #fec63e;
+    margin: 6px 0px 12px 0px ;
+    align-items: center;
+}
+
+
+.footer_historia {
+  padding-right: 40px;
+}
+
+.footer_contato ul li{
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.footer_redes ul li{
+  display: inline-block ;
+  border: solid 3px #fec63e;
+  padding: 9px;
+  margin-right: 10px;
+}
+.footer_redes ul li:hover{
+  border: solid 3px #ffffff;
+}
+
+.copy{
+  width: 100%;
+  height: 60px;
+  background-color: #fec63e;
+}
+.copy p{
+  margin-top: 20px ;
+}
+
+/*JavaScript*/
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+}
+.js [data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.js [data-slide-nav]  button {
+  display: inline-block;
+  width: 12px;
+  margin: 4px;
+  height: 12px;
+  border: none;
+  padding: 0px;
+  border-radius: 6px;
+  background: #1d1d1d;
+  text-indent: -100px;
+  overflow:  hidden;
+}
+.js [data-slide-nav] > button.active {
+  background: #fec454;
+}
+
+.js [data-anime]  {
+  opacity: 0;
+  transform: translate3d(0px, -20px, 0);
+}
+
+.js .fadeInDown {
+  transform: translate3d(0, -20px, 0);
+}
+.js .anime {
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+  
+}
+

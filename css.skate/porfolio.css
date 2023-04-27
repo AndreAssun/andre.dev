@@ -1,0 +1,46 @@
+.interna_produtos {
+  background: url(/img.skate/smiley-woman-holding-skateboard-medium-shot.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.quote_clientes{
+  padding: 60px 0;
+  max-width: 460px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.quote_clientes p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+
+
+.cite_portfolio{
+  font-weight: bold;
+  font-style: normal;
+}
+
+#barbara:after{
+    content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+    display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 14px auto 10px auto;
+  }
+  #barbara:before {
+    content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+    display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 14px auto 10px auto;
+  }
+  #step{
+    color: #fec63e;
+  }
