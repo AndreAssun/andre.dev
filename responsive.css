@@ -465,6 +465,10 @@
    
     
   }
+  .foto-projeto {
+    width: 396px;
+    height: auto;
+  }
 
 }
 
@@ -505,10 +509,52 @@
   padding-right: 15px
 }
 
-
-
-
+.portfolio_content {
+  max-width: 70%;
+  min-width: 350px;
+  border-radius: 20px;
+  display: flex;
+  padding: 25px;
+  flex-direction: column;
+  align-items: center;
 
 }
 
+.project-img img {
+  width: 299px;
+  height: auto;
+  border-radius: 1.7rem;
+  box-shadow: 0 0 10px rgba(116, 116, 116, 0.295);
+}
 
+.portfolio_info p {
+  color: #767676;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  width: auto;
+}
+.foto-projeto {
+  width: 285px;
+  height: auto;
+}
+
+}
+
+@media (max-width: 380px){
+  .portfolio_content {
+    
+    min-width: 295px;
+  }
+
+  .foto-projeto {
+    width: 254px;
+  }
+  .portfolio_info h4 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+
+
+}
