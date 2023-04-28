@@ -210,7 +210,7 @@
 
 .tech-used{
     display: flex;
-    width: 100px;
+    width: 200px;
     height: 40px;
     margin: 0 auto;
     align-items: center;
@@ -538,6 +538,10 @@
 .foto-projeto {
   width: 285px;
   height: auto;
+}
+.portfolio_reverse{
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 }

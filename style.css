@@ -203,7 +203,7 @@ margin-bottom: 10px;
   color: #2d2e32;
   font-size: 25px;
   font-weight: 700;
-  margin-bottom: 1rem;
+  margin: 0 auto;
   
 }
 
@@ -276,9 +276,10 @@ margin-bottom: 10px;
 
 
 .portfolio h3{
+  padding-bottom: 30px;
   color: #3c5bd8d2;
   font-size: 2rem;
-  margin-bottom: 30px;
+  margin: 0 auto;
   
 }
 .portfolio_intro h4 {
@@ -293,6 +294,7 @@ margin-bottom: 10px;
   font-size: 25px;
   margin-bottom: 10px;
   color: #2d2e32;
+  
  }
 
  .portfolio_info{
@@ -324,11 +326,14 @@ margin-bottom: 10px;
 }
 
 .tech-used{
+     
     display: flex;
     width: 200px;
     height: 40px;
     margin: 0 auto;
     align-items: center;
+    justify-content: space-around;
+
     
   }
 .tech{
