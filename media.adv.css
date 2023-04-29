@@ -18,8 +18,8 @@
   .main-menu{
     
     color: rgb(255, 255, 255);
-    background-image: url(img.adv/arranjo-do-conceito-de-verdade-com-equilibrio\ \(1\).jpg);
-    height: 700px;
+    background-image: url(img/arranjo-do-conceito-de-verdade-com-equilibrio\ \(1\).jpg);
+    height: 784px;
     background-color:#F7F5F7;
     
 
@@ -211,8 +211,81 @@
     font-size: 10px;
   }
 
+  .div_time button {
+    margin-top: 40px;
+  }
 
 
+
+}
+
+@media screen and (max-width: 394px){
+
+  .main-menu h2{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    
+    
+   
+    
+    
+  }
+
+  .casos-ajudar{
+    font-size: 12px;
+  }
+
+  .div_time{
+    padding: 8px;
+  }
+
+  .conteudo-text h2{
+    font-size: 14px;
+    margin-top: -12px;
+  }
+
+  .conteudo-text p{
+    font-size: 12px;
+  }
+
+  .novo_conceito{
+    padding-top: 1px;
+    width: 200px;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .novo_conceito p{
+    font-size: 14px;
+  }
+
+  .newsletter-form input {
+    width: 130px;
+  }
+
+  .newsletter-info p{
+    font-size: 14px;
+  }
+  .quote-externo{
+    font-size: 14px;
+  }
+
+  .main-form{
+    margin: 0 auto;
+    padding: 0;
+    
+  }
+
+  .sessao_time{
+    height: 500px;
+  }
+
+  
 }
 
 
