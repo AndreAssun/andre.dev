@@ -1,0 +1,219 @@
+@media screen and (max-width: 760px){
+
+  header{
+    width: 100%;
+    background-color: #181B2A;
+   }
+ 
+  .sessao_header{
+    width: 100% ;
+    background-color: #181B2A;
+    
+    
+  }
+  .sessao_header .contato{
+    display: none;
+  }
+
+  .main-menu{
+    
+    color: rgb(255, 255, 255);
+    background-image: url(img.adv/arranjo-do-conceito-de-verdade-com-equilibrio\ \(1\).jpg);
+    height: 700px;
+    background-color:#F7F5F7;
+    
+
+
+  }
+ 
+
+  .main-menu h2{
+    font-weight: lighter;
+    font-size: 35px;
+    line-height: 35px;
+    text-transform: uppercase;
+    
+  }
+
+  .main-form{
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    padding: 60px;
+    font-weight: 300;
+    
+    
+  }
+  .main-form h2:after {
+   display: none;
+  }
+  .novo_conceito{
+    text-align: center;
+    align-items: center;
+  }
+
+  .novo_conceito h2{
+    margin-bottom: 30px;
+    
+  }
+  .main-menu form {
+    background-color: #00000069;
+    height: 100%;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.823);
+    margin: 0 auto;
+    
+  
+  }
+
+  .main-form p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 100px;
+    width: 100%;
+    text-align: center;
+  }
+
+  h3{
+
+    width: 100%;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 14px;
+    
+    
+  }
+  .main-menu button{
+    margin-top: 15px;
+    background-color: #967b1a;
+    color: rgba(255, 255, 255, 0.69);
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+  }
+  label{
+    padding-top: 7px;
+    
+    
+  }
+  input{
+    padding: 5px ;
+    outline: none;
+    height: 46px;
+    
+   
+  }
+  .sessao_time{
+    width: 100%;
+  }
+
+  .sessao_time img{
+    display: none;
+
+  }
+  .div_time{
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    
+  }
+  .div_time button{
+    width: 100%;
+
+  }
+  .conteudo-text{
+    margin:  0 auto;
+    padding: 25px;
+    
+  }
+
+  .conteudo-text h2{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    
+    
+  }
+
+  .newsletter{
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .newsletter-info {
+    flex:none;
+    margin: 0 10px;
+    
+  }
+  .newsletter-info h1{
+    font-size: 2em;
+    color: #a4a4a4;
+  }
+
+  .newsletter-info p{
+    font-size: 1.0em;
+    font-style: italic;
+    color: #7c7c7c;
+    margin-bottom: 10px;
+    
+  }
+  .newsletter-form input{
+    
+    font-family: "poppins";
+    
+  }
+  .newsletter-form button{
+    flex: 1 1 260px;
+    font-size: 15px; 
+    font-weight: 200;
+    background-color: #181B2A;
+    color: white;
+    margin:0px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0px;
+    letter-spacing: 2px;
+    height: 50px;
+    border-radius: 0px 0px 5px 5px;
+    
+    
+    
+  }
+  footer{
+    height: 40px;
+  }
+  .sessao-footer{
+    background-color: #181B2A;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+    
+    
+
+  }
+
+  .sessao-footer p {
+    align-items: center;
+    color:#ffffff;
+    text-align: center;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 10px;
+  }
+
+
+
+}
+
+
+
