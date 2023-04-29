@@ -197,6 +197,7 @@
     justify-content: space-around;
     text-align: center;
     flex-direction: column;
+    padding: 10px;
     
     
 
@@ -259,7 +260,7 @@
 
   .novo_conceito{
     padding-top: 1px;
-    width: 200px;
+    width: 264px;
     margin: 0 auto;
     padding-top: 20px;
   }
