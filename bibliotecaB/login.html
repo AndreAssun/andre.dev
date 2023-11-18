@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/midia.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    
+
+    <title>Biblioteca Online</title>
+</head>
+<body>
+    <header class="header" id="header">
+    <div class="menu">
+      <h1>
+        <a href="index.html" >
+            <img id="logo" src="img/logo-site.png" alt=""/>
+        </a>
+      </h1>
+      <nav class="menu-nav" id="nav">
+        <button id="btn-mobile" aria-label="Abrir Maenu" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+          <span id="hamburguer"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="quem-somos.html">Quem somos</a></li>
+          <li><a href="recursos.html">Recursos</a></li>
+          <li><a href="vitrine.html">Nosso acervo</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
+
+    <style>
+        section {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        a{
+            color: blue;
+        }
+
+        .form-container {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        #register-form {
+            display: none;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0f82fd;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #007bff;
+        }
+
+        .toggle-form {
+            margin-top: 10px;
+            color: #007bff;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<section>
+    <div class="form-container" id="login-form">
+        <h2>Login</h2>
+        <input type="text" id="login-username" placeholder="Nome de Usuário" required>
+        <input type="password" id="login-password" placeholder="Senha" required>
+        <button onclick="login()">Entrar</button>
+        <a href="index.html">
+            <p class="toggle-form" onclick="toggleForm()">Não tem uma conta? Cadastrar-se</Não></p>
+        </a>
+    </div>
+
+    <div class="form-container" id="register-form">
+        <h2>Cadastro</h2>
+        <input type="text" id="register-username" placeholder="Nome de Usuário" required>
+        <input type="password" id="register-password" placeholder="Senha" required>
+        <button onclick="register()">Cadastrar</button>
+        <p class="toggle-form" onclick="toggleForm()"><a href="">Já tem uma conta? <a href="index.html">Fazer login</a></a></p>
+    </div>
+</section>
+
+<script>
+    function toggleForm() {
+        document.getElementById('login-form').style.display = (document.getElementById('login-form').style.display === 'none') ? 'block' : 'none';
+        document.getElementById('register-form').style.display = (document.getElementById('register-form').style.display === 'none') ? 'block' : 'none';
+    }
+
+    function login() {
+        // Login invalido, verifique os dados inseridos
+        alert('Login invalido, verifique os dados inseridos!');
+    }
+
+    function register() {
+        // Login invalido, verifique os dados inseridos
+        alert('Login invalido, verifique os dados inseridos!');
+    }
+</script>
+
+</body>
+</html>
+
+        
+
+</body>
+</html>
