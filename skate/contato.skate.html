@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<title>Skate Foco - Contato</title>
+	<link rel="shortcut icon" href="img.skate/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img.skate/favicon.png" type="image/x-icon">
+	<link rel="stylesheet" href="css.skate/normalize.css"> 
+	<link rel="stylesheet" href="css.skate/reset.css"> <!-- código para resetar o css  -->
+	<link rel="stylesheet" href="css.skate/grid.css"> <!-- código com grid já definido  -->
+	<link rel="stylesheet" href="css.skate/style.css"> <!-- código com o style página INICIAL  -->
+	<link rel="stylesheet" href="css.skate/contato.css"> <!-- código com o style página SOBRE  -->
+	<link rel="stylesheet" href="css.skate/responsivo.css"> <!-- código com o style página RESPONSIVA -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap" rel="stylesheet">
+	<script>document.documentElement.classList.add("js");</script>
+</head>
+
+<body>
+	<header class="header">
+		<div class="container">
+			<a href="" class="grid-4">
+				<img id="teste" src="img.skate/logo.png" alt="Skate Foco">
+			</a>
+			<nav class="grid-12 header_menu">
+				<ul>
+					<li><a href="sobre.skate.html">Sobre</a></li>
+					<li><a href="produtos.skate.html">Produtos</a></li>
+					<li><a href="portfolio.skate.html">Portfólio</a></li>
+					<li><a id="step" href="contato.skate.html">Contato</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section class="introducao-interna interna_contato">
+		<div class="container">
+			<h1 data-anime="400" class="fadeInDown">Contato</h1>
+			<p data-anime="800" class="fadeInDown">tire sua duvida com a gente</p>
+		</div>
+	</section>
+	<section class="contato container fadeInDown" data-anime="1200">
+		<form method="POST" action="enviar-sendgrid.php" id="form_contato" class="contato_form grid-8 formphp">
+			<label for="nome">Nome</label>
+			<input type="text" id="nome" name="nome" required>
+			<label for="email">E-mail</label>
+			<input type="email" id="email" name="email" required>
+			<label for="telefone">Telefone</label>
+			<input type="text" id="telefone" name="telefone">
+			<label for="email">Mensagem</label>
+			<textarea id="mensagem" required nome="mensagem" cols="30" rows="5"></textarea>
+			<button id="enviar" name="enviar" Xtype="submit" class="btn btn_branco">Enviar</button>
+		</form>
+		<div class="contato_dados grid-8">
+			<h3>Dados</h3>
+			<span>+ 55 21 99999-9999</span>
+			<span class="dados_email">orcamento@skatefoco.com</span>
+			<span>Ria Ali Perto - Botafogo</span>
+			<span>Rio de Janeiro - RJ - Brasil</span>
+			<h3>Redes sociais</h3>
+			<ul>
+				<li> <a href="#" target="_blank"><img src="img.skate/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+				<li> <a href="#" target="_blank"><img src="img.skate/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+				<li> <a href="#" target="_blank"><img src="img.skate/redes-sociais/twitter.svg" alt="twitter"></a></li>
+			</ul>
+		</div>
+	</section>
+
+
+	<section class="container contato_mapa fadeInDown" data-anime="1400">
+		<a class="grid-16" href="https://www.google.com.br/maps" target="_blank"><img src="img.skate/endereco-bikcraft.jpg" alt="Endereco da Bikcraft"></a>
+
+	</section>
+	<section class="quebra">
+		<blockquote class="quote-externo container">
+			<p>"não tenha nada em sua casa que você
+				não considere útil ou acredita ser bonito"</p>
+			<cite>WILLIAM MORRIS</cite>
+		</blockquote>
+
+	</section>
+
+	<footer>
+		<div class="footer">
+			<div class="container">
+
+
+				<div class="grid-8 footer_historia">
+					<h3>Nossa História</h3>
+					<p>O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.
+						Interesse por todos os detalhes da vida cotidiana.</p>
+				</div>
+
+				<div class="grid-4 footer_contato">
+					<h3>Contato</h3>
+					<ul>
+						<li>- 21 9999-9999</li>
+						<li>- contato@skatefoco.com</li>
+						<li>- Botafogo - RJ</li>
+					</ul>
+				</div>
+
+				<div class="grid-4 footer_redes">
+					<h3>Redes sociais</h3>
+					<ul class="">
+						<li> <a href="#" target="_blank"><img src="img.skate/redes-sociais/facebook.svg" alt="Facebook"></a></li>
+						<li> <a href="#" target="_blank"><img src="img.skate/redes-sociais/instagram.svg" alt="Instagram"></a></li>
+						<li> <a href="#" target="_blank"><img src="img.skate/redes-sociais/twitter.svg" alt="twitter"></a></li>
+					</ul>
+
+				</div>
+
+			</div>
+		</div>
+		<div class="copy">
+			<div class="container">
+				<p class="grid-16">Skate Foco 2022 - Alguns direitos reservados.</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="js.skate/simple-anime.js"></script>
+	<script src="js.skate/script.js"></script>
+	<script src="js.skate/simple-form.js"></script>
+
+
+</body>
+
+</html>

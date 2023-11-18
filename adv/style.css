@@ -1,0 +1,823 @@
+* { 
+  margin: 0; 
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  text-decoration: none;
+  
+
+}
+.js [data-anime] {
+  opacity: 0;
+}
+.js .fadeinDown {
+  transform: translate3d(0, -20px, 0);
+}
+
+.js .anime{
+  opacity: 1;
+  transform: none;
+  transition: opacity 800ms, transform 800ms;
+}
+
+ header{
+  width: 100%;
+  background-color: #181B2A;
+ }
+
+ .sessao_header{
+  display: flex;
+  background-color: #181B2A;
+  color: white;
+  justify-content: space-between;
+  width: 90%;
+  height: 100px;
+  align-items: center;
+  line-height: 30px;
+  margin: 0 auto;
+  
+ }
+
+ .espaco-logo{
+  display: flex;
+  align-items: center;
+  
+ }
+
+ .espaco-logo a{
+  color: #ffffff;
+ }
+ .espaco-logo img{
+  width: 70px;
+  padding: 7px;
+  margin-top: 7px;
+  
+ }
+ .logo{
+  display: flex;
+  align-items: center;
+  letter-spacing: 3px;
+  font-weight: 400;
+  font-size: 25px;
+ }
+
+ header h3{
+   padding-left: 50px;
+ }
+
+.contato{
+  display: flex;
+  
+ }
+
+ .contato h3{
+  font-size: 14px;
+ }
+
+.redes li{
+  margin-right: 15px;
+  list-style: none;
+}
+.redes{
+  display: flex;
+  
+  padding-top: 4px;
+}
+
+.main-menu{
+  background-image: linear-gradient(to bottom, transparent 0%, #3f3f3f29 50%), url(img/jovem-empresario-bem-sucedido-corrigindo-o-laco.png);
+  background-size:cover;
+  position: relative;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  color: white;
+  margin: 0 auto;
+  
+}
+
+.novo_conceito{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3%;
+  gap: 20px;
+}
+
+
+
+.main-menu h2{
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  text-transform: uppercase;
+  width: 66%;
+}
+.main-form{
+  padding: 60px;
+  
+}
+.main-form h2::after {
+  content: "";
+  display: block;
+  width: 150px;
+  height: 3px;
+  background-color: #CCA621;
+  margin: 18px 0;
+}
+.main-menu span{
+  font-weight: 500;
+  font-style: italic;
+  color: #CCA621;
+  letter-spacing: 1px;
+}
+.main-form{
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 0%;
+  
+}
+.main-form p{
+  font-size: 17px;
+}
+
+.main-menu form {
+  background-color: #00000069;
+  padding: 20px;
+  height: 426px;
+  display: grid;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.823);
+  margin-left: 140px;
+  
+
+}
+
+.section-cards{
+  width: 100%;
+  height: 200px;
+  margin: 0 auto;
+  position: absolute;
+  top: 80%
+  
+}
+
+.div-cards{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.card-main{
+  text-align: center;
+  padding: 20px;
+  color: #967b1a;
+  border-radius: 5px;
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.card-main h1{
+  font-weight: 600;
+}
+
+.card-main h2{
+  font-weight:200;
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+
+.first-button{
+  background-color: #967b1a;
+  color: rgba(255, 255, 255, 0.69);
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 10px;
+  
+}
+
+
+
+.casos-ajudar{
+  text-align: center;
+  margin-top: 260px;
+  position: relative;
+  
+}
+
+.casos-ajudar h2::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 4px;
+  background-color: #CCA621;
+  margin: 7px 0;
+  position: absolute;
+  left: 50%;
+  
+}
+
+.casos-ajudar span{
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+}
+
+.qualidade {
+  max-width: 960px;
+  margin: 60px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.qualidade-item{
+  flex: 1 1 300px; 
+  margin: 20px 10px;
+}
+
+.qualidade-item h2{
+  font-size: 2.25em;
+  color: #a4a4a4;
+  margin-bottom: 20px;
+}
+
+.qualidade-item h2::before{
+  content: '';
+  width: 8px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: #CCA621;
+  display: inline-block;
+}
+
+.qualidade-item:nth-of-type(3n+1) h2::before {
+  background-color: #CCA621;
+
+}
+
+.qualidade-item:nth-of-type(3n+2) h2::before {
+  background-color: #a84c00;
+
+}
+
+.qualidade-item:nth-of-type(3n+3) h2::before {
+  background-color: #CCA621;
+
+}
+
+
+.introducao {
+  background-color:#F7F5F7;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.qualidade-item p {
+  font-size: 1em;
+  line-height: 1.4;
+  color: #111111;
+}
+
+.quote-externo {  /* citação */
+  max-width: 600px;
+  margin: 0 auto; 
+  text-align: center;
+  font-weight: 100px;
+  align-items: center;
+  padding-top: 30px;
+  align-items: center;
+}
+
+
+cite::before, cite::after {   /* elemento EM ESTILO criado antes do p com :before e :after */
+  content: ""; /* contéudo EM ESTILO criado antes do p com :before e :after */
+  display: block; /* por padrão, o :before e :after é INLINE. então mudamos ele para BLOCK.*/
+  width: 90px;
+  height: 3px;
+  background-color: #000000;
+  margin: 20px auto 20px auto;
+}
+
+
+
+blockquote{
+  text-align: center;
+}
+.quote-externo p {  
+  font-style: italic;
+  font-weight: lighter;
+  color: #3a3d4adc;
+  margin-bottom: 30px;
+  text-align: center;
+  
+  
+  
+}
+.sessao_time{
+  background-color: #181B2A;
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+.div_time{
+  width: 1200px;
+  display: flex;
+  color: white;
+  padding: 100px;
+  margin: 0 auto;
+  padding: 50px;
+  
+  
+  
+  
+}
+
+
+
+.div_time button{
+  
+  background-color: #967b1a;
+  color: rgba(255, 255, 255, 0.69);
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 400px;
+  text-transform: uppercase;
+  margin-top: 25px;
+  cursor: pointer;
+
+ 
+}
+
+.div_time button:hover{
+  background-color: #a7881c;
+  
+}
+.div_time img{
+  max-width: 510px;
+
+
+}
+
+
+
+
+.conteudo-text{
+  margin-left: 90px;
+  
+  
+  
+}
+
+
+.conteudo-text h2{
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.25px;
+}
+
+.conteudo-text span{
+  font-style: italic;
+  font-weight: lighter;
+  position: relative;
+}
+
+.conteudo-text p{
+  margin-top: 12px;
+  font-weight: 300;
+  width: 100%;
+  font-size: 1em;
+  line-height: 1.7;
+  
+  
+  
+
+}
+
+.sessao_time img{
+  width: 500px;
+  border: solid 5px white;
+
+}
+
+
+
+.sessao_contato{
+  background-color:#F7F5F7;
+  
+
+}
+.div_contato{
+  color: #000000;
+  width: 800px;
+  margin: auto;
+  display: flex;
+  padding: 50px;
+  
+}
+
+h3{
+  width: 447px;
+  font-weight: lighter;
+  text-align: center;
+  
+}
+
+.main-menu button{
+  margin-top: 15px;
+  background-color: #967b1a;
+  color: rgba(255, 255, 255, 0.69);
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  width: 450px;
+  
+}
+button:hover{
+  background-color: #a7881c;
+}
+label{
+  padding-top: 18px;
+  
+  
+}
+input{
+  padding: 5px ;
+  outline: none;
+  height: 46px;
+  
+ 
+}
+
+.newsletter {
+  
+  padding: 70px ;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.newsletter-sessao{
+  background-color:#F7F5F7;
+
+}
+
+.newsletter-info {
+  flex: 1 1 260px;
+  margin: 0 10px;
+}
+
+.newsletter-info h1{
+  font-size: 3em;
+  color: #a4a4a4;
+}
+
+.newsletter-info p{
+  font-size: 1.25em;
+  font-style: italic;
+  color: #7c7c7c;
+  margin-bottom: 10px;
+  
+}
+
+.newsletter-form {
+  flex: 2 1 260px;
+  margin: 0 10px;
+  align-self: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newsletter-form input{
+  flex: 3 1 260px;
+  font-size: 1.25em;
+  color: #7c7c7c;
+  font-style: italic;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  border:3px solid #181B2A;
+  background: transparent;
+  padding: 10px;
+  margin: 0px;
+  border-radius: 0px;
+  width: 300px;
+}
+
+.newsletter-form button{
+  flex: 1 1 260px;
+  font-size: 15px;
+  font-weight: 200;
+  background-color: #181B2A;
+  color: white;
+  margin:0px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0px;
+  letter-spacing: 2px;
+  height: 50px;
+  border-radius: 0px 0px 5px 5px;
+ 
+  
+  
+  
+}
+
+.newsletter-form button:hover{
+  background-color: #343a58;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  height: 60px;
+  background-color: #181B2A;
+
+  
+  
+}
+
+
+.sessao-footer{
+  background-color: #181B2A;
+  display: flex;
+  margin: 0 auto;
+  width: 1200px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  
+  
+}
+
+.sessao-footer p {
+  color:#ffffff;
+  padding: 0px;
+  margin-top: 20px;
+  font-size: 12px;
+ 
+}
+
+.div-formulario{
+  background-image: linear-gradient(to bottom, transparent 0%, #565656a4 50%), url(img/closeup-de-martelo-julgamento-conceito.jpg);
+  background-size: cover;
+}
+
+.div-formulario{
+  display: flex;
+}
+
+.novo_conceito_form{
+  width: 100%;
+}
+
+.main-form-02{
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0 auto;
+    padding-top: 0%;
+    
+  }
+
+
+.section-form{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(to bottom, transparent 0%, #56565693 50%), url(img/closeup-de-martelo-julgamento-conceito.jpg);
+  background-size: cover;
+  padding: 70px;
+  
+}
+
+
+.form-text{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-text h1{
+  text-transform: uppercase;
+  font-size: 27px;
+  font-weight: 500;
+
+}
+
+.form-text h2{
+  font-size: 17px;
+  font-weight: 400;
+
+}
+
+
+.form {
+  background-color: rgba(255, 255, 255, 0.938);
+  padding: 3.125em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 5px 5px 15px -1px rgba(0,0,0,0.75);
+}
+
+.signup {
+  color: rgb(77, 75, 75);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  display: block;
+  font-weight: bold;
+  font-size: x-large;
+  margin-bottom: 0.5em;
+}
+
+.form--input {
+  width: 100%;
+  margin-bottom: 1.25em;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding: 0.8em;
+  font-family: 'Inter', sans-serif;
+  outline: none;
+}
+
+.form--input:focus {
+  border: 1px solid #639;
+  outline: none;
+}
+
+.form--marketing {
+  display: flex;
+  margin-bottom: 1.25em;
+  align-items: center;
+}
+
+.form--marketing > input {
+  margin-right: 0.625em;
+}
+
+.form--marketing > label {
+  color: grey;
+}
+
+.checkbox, input[type="checkbox"] {
+  accent-color: #639;
+}
+
+.form--submit {
+  width: 50%;
+  padding: 0.625em;
+  border-radius: 5px;
+  color: white;
+  background-color: #967b1a;
+  border: none;
+  cursor: pointer;
+}
+
+.form--submit:hover {
+  transition: 0.5s;
+  background-color: #c09e24;
+}
+
+.form-text{
+  color: white;
+}
+
+
+/*equipe */
+
+.section-equipe{
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 10%;
+  gap: 40px;
+}
+.card-equipe{
+  
+  width: 270px;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+}
+
+
+
+.cards-profissionais{
+  text-align: center;
+  margin-top: 100px;
+  
+  
+}
+
+.cards-profissionais h2{
+  font-weight: 600;
+  margin-bottom: 50px;
+  
+}
+
+.card-equipe img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+
+.card-equipe h1{
+  font-size: 20px;
+  padding-top: 15px;
+  color: #876e16;
+}
+
+.card-equipe h2{
+  
+  padding-top: 5px;
+  color: #2e2e2e;
+  font-size: 17px;
+  margin-bottom: 13px;
+}
+
+.formacao-lista li{
+  font-size: 13px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.formacao-lista p{
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.formacao-lista p::after{
+  content: '';
+  display: block;
+  background-color: #876e16;
+  width: 50%;
+  height: 2px;
+  margin: 15px auto;
+  align-items: center;
+  align-content: center;
+}
+
+.redes_lista{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
