@@ -62,6 +62,9 @@ header ul li a:hover {
   transition: all .43s;
   
 }
+a{
+  color: black;
+}
 
 /*MAIN*/
 
