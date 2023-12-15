@@ -328,7 +328,7 @@ margin-bottom: 10px;
 .tech-used{
      
     display: flex;
-    width: 200px;
+    width: 60%;
     height: 40px;
     margin: 0 auto;
     align-items: center;
@@ -348,8 +348,9 @@ margin-bottom: 10px;
 
   .tech-used h5{
     background-color: #fff;
+    width: 68px;
     box-shadow: 0 0 10px rgba(0,0,0,.1);
-    font-family: Mulish,sans-serif!important;
+    border-radius: 10px;
     font-weight: 600!important;
     padding: 1rem 1.3rem;
     color: #2d2e32;
