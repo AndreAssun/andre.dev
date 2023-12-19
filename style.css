@@ -90,8 +90,10 @@ a{
   
 }
 
-#imgfront{
+#imgfront {
   width: 300px;
+  box-shadow: 0px 10px 50px -11px #3c5bd8d2;
+  border-radius: 50%;
   
   
 }
