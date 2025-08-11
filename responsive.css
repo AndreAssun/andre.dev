@@ -11,7 +11,16 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        
       }
+
+.front-icons{
+  
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  padding-bottom: 30px;
+}      
       
 .text-side {
       display: grid;

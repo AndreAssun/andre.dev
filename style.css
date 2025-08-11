@@ -122,11 +122,14 @@ color: #767676;
 font-size: 16px;
 width: 500px;
 
+
 }
 .front-icons svg{
   margin-right: 10px;
   width: 30px;
   cursor: pointer;
+  
+  
 }
 .front-icons svg:hover{
   color: #3c5bd8d2;
@@ -137,6 +140,12 @@ width: 500px;
   color: #2d2e32;
 }
 
+.front-icons{
+  
+  display: flex;
+  align-items: center; 
+}
+
 
 .tech-stack{
   
@@ -144,6 +153,8 @@ width: 500px;
   width: 850px;
   margin: 0 auto;
   align-items: center;
+  
+  
   
   
 }
