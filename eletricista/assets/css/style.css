@@ -1,0 +1,863 @@
+/* ===== RESET E CONFIGURAÇÕES GERAIS ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", "sans-serif";
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+
+#btn-mobile {
+    display: none;
+}
+
+/* ===== SEÇÃO PRINCIPAL/INTRO ===== */
+.section-intro {
+  height: 100vh;
+  background: url(/andre.dev/site-eletricista/assets/img/fundo-eletricista.jpg);
+  background-size: cover;
+}
+
+/* ===== LOGO ===== */
+.logo {
+  width: 70px;
+}
+
+#logo a {
+  display: flex;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  width: 60%;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: aliceblue;
+  align-items: center;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+}
+
+/* ===== HEADER/MENU DE NAVEGAÇÃO ===== */
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.menu a {
+    color: aliceblue;
+}
+
+.menu-nav ul {
+  display: flex;
+}
+
+.menu-nav ul li {
+  margin-left: 30px;
+  color: rgb(237, 237, 237);
+  transition: color 0.5s ease;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #ffbb01;
+  transition: color 0.5s ease;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+main {
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.frase-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.risco {
+  position: absolute;
+  bottom: -115px; /* posiciona acima da palavra */
+  left: 50%; /* centraliza horizontalmente */
+  transform: translateX(-50%) translateY(-10px); /* ajusta o espaçamento */
+  width: 280px; /* ajuste conforme o tamanho desejado */
+}
+
+.main-text {
+  height: 80vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60vw;
+  color: aliceblue;
+  gap: 20px;
+}
+
+.div-livre {
+  width: 40%;
+}
+
+.main-text h1 {
+  font-size: 19px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  width: 60%;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.main-text h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 80%;
+}
+
+.main-text h3 {
+  font-size: 20px;
+  font-weight: 300;
+  width: 70%;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+strong {
+  font-weight: 600;
+}
+
+/* ===== BOTÕES ===== */
+.button-87 {
+  padding: 15px 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: #ffbb01;
+  background-image: linear-gradient(
+    45deg,
+    #ffcb2f 0%,
+    #f09819 51%,
+    #ffd22f 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 280px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-radius: 12px;
+}
+
+.button-87:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* ===== SEÇÃO DE AVALIAÇÕES GOOGLE ===== */
+.google-stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.google {
+  display: flex;
+  gap: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 30px;
+}
+
+.google-stars img {
+  margin-bottom: 2px;
+}
+
+.google-stars p {
+  font-weight: 300;
+  color: antiquewhite;
+}
+
+#atendimentos {
+  font-weight: 600;
+}
+
+/* ===== SEGUNDA SEÇÃO (FUNDO AZUL) ===== */
+.fundo-two {
+  background-color: #01509b;
+  padding-bottom: 100px;
+}
+
+.section-two {
+  margin: 0 auto;
+  width: 80%;
+  background-color: aliceblue;
+  background-size: cover;
+  display: flex;
+  color: #01509b;
+  border-radius: 30px;
+  padding: 50px;
+  align-items: center;
+}
+
+.servicos-prestados {
+  display: flex;
+  padding-bottom: 20px;
+  width: 80%;
+}
+
+.servicos-prestados p {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.servicos-prestados strong {
+  color: #ffbb01;
+  font-size: 70px;
+  padding-right: 10px;
+}
+
+.main-text-2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  width: 80%;
+}
+
+.main-text-3 {
+  font-size: 20px;
+  font-weight: 300;
+  width: 70%;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.area {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 30px;
+  flex-direction: column;
+}
+
+.area-icones {
+  display: flex;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.text-icon {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.icon-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.icon-eletricista {
+  margin-right: 10px;
+}
+
+/* ===== ANIMAÇÕES E ELEMENTOS FLUTUANTES ===== */
+.image-eletrica img {
+  width: 300px;
+}
+
+.image-eletrica .esfera-flutua img {
+  width: 150px;
+}
+
+.image-eletrica {
+  position: relative;
+  width: 300px; /* ajuste conforme o tamanho da imagem */
+  margin: 0 auto;
+}
+
+.celular {
+  width: 100%;
+  display: block;
+}
+
+.bola {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  animation: flutuar 3s ease-in-out infinite;
+}
+
+/* Bola 01 - acima da imagem */
+.bola01 {
+  top: -20px;
+  animation-delay: 0s;
+  left: 240px;
+}
+
+/* Bola 02 - centro da imagem */
+.bola02 {
+  top: 70%;
+  transform: translate(-50%, -50%);
+  animation-delay: 1s;
+  left: 240px;
+}
+
+/* Bola 03 - abaixo da imagem */
+.bola03 {
+  bottom: 70px;
+  left: -80px;
+  animation-delay: 2s;
+}
+
+.image-eletrica .bola {
+  width: 130px;
+}
+
+/* Animação flutuante */
+@keyframes flutuar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* ===== SEÇÃO DE SERVIÇOS ===== */
+.section-servicos {
+  background-color: #01509b;
+  color: aliceblue;
+}
+
+.servicos h2 strong {
+  color: #ffbb01;
+}
+
+.servicos {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.servicos h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.servicos h1 img {
+  width: 20px;
+}
+
+.servicos h2 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.servicos h3 {
+  padding-bottom: 70px;
+  padding-top: 20px;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.blocos-servico {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  gap: 10px;
+  padding-bottom: 150px;
+}
+
+.bloco {
+  display: flex;
+  gap: 10px;
+  background-color: aliceblue;
+  color: rgb(51, 51, 51);
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.bloco h4 {
+  font-weight: 500;
+}
+
+.bloco-explicacao {
+  margin-top: 5px;
+  display: flex;
+  gap: 10px;
+  background-color: aliceblue;
+  color: rgb(51, 51, 51);
+  width: 400px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 150px;
+  font-weight: 500;
+}
+
+.bloco img {
+  width: 30px;
+}
+
+/* ===== SEÇÃO SOBRE MIM ===== */
+.sobre-mim {
+  background-color: #01509b;
+  padding-top: 50px;
+}
+
+.div-mim {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 60px;
+}
+
+.foto-profissional {
+  position: relative;
+}
+
+#foto-perfil {
+  border-radius: 30px;
+  width: 500px;
+}
+
+.bloco-informacao {
+  display: flex;
+  background-image: linear-gradient(154deg, #7f9cb8 0%, #e0e3e7 100%);
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding: 15px;
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  border-radius: 30px;
+}
+
+.text-box {
+  display: flex;
+  align-items: center;
+}
+
+#logo-perfil {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.text-box2 {
+  margin-left: 20px;
+}
+
+.text-box2 p {
+  color: #e0e3e7;
+  letter-spacing: 4px;
+}
+
+.text-box h2 {
+  font-family: "Helvetica", Sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+#logo-info {
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.sobre-mim-explicacao {
+  max-width: 60%;
+}
+
+.sobre-mim-explicacao h1 {
+  padding-bottom: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.risco-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.risco-wrapper h2 {
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: normal;
+  color: aliceblue;
+  margin: 0;
+}
+
+.risco-2 {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 290px;
+  z-index: 1;
+}
+
+.sobre-mim-explicacao h3 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: aliceblue;
+  padding-bottom: 40px;
+}
+
+.sobre-mim-explicacao h4 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: aliceblue;
+  padding-bottom: 40px;
+}
+
+.bloco-formacao {
+  display: flex;
+  padding: 13px !important;
+  background-color: aliceblue;
+  border-radius: 12px;
+  gap: 10px;
+  font-weight: 700;
+  color: #4b4b4b;
+  margin-bottom: 5px;
+  width: 90%;
+}
+
+/* ===== SEÇÃO DE DEPOIMENTOS ===== */
+.borda {
+  border-radius: 30px;
+  border: 2px solid aliceblue;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bloco-comentarios {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 20px; /* espaçamento entre os comentários */
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  justify-items: center;
+  margin-top: 50px;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.box-comentario {
+  border-radius: 20px;
+  background: linear-gradient(
+    0deg,
+    rgba(149, 203, 199, 0.06) -2.16%,
+    rgba(149, 203, 199, 0.25) 108.65%
+  );
+  backdrop-filter: blur(10px);
+  padding: 25px;
+  width: 400px;
+}
+
+.campo-avaliacao {
+  display: flex;
+  gap: 8px;
+}
+
+.box-avaliacao {
+  background-color: rgba(221, 221, 221, 0.27);
+  display: flex;
+  justify-content: space-evenly;
+  width: 60px;
+  border-radius: 20px;
+}
+
+.titulo-comentario {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.link-comentario img {
+  width: 25px;
+  background-color: #ffffff79;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.comentario-text p {
+  font-weight: 200;
+}
+
+.box-titulo h1 {
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.campo-avaliacao p {
+  font-size: 12px;
+  color: #ffffffb8;
+}
+
+.section-servicos {
+  padding-bottom: 50px;
+}
+
+/* ===== SEÇÃO SERVIÇOS ELÉTRICOS ===== */
+.servicos-eletricos {
+  background-color: #01509b;
+  padding-top: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.servico-eletrico-div {
+  margin: 0 auto;
+  width: 80%;
+  background-color: aliceblue;
+  background-size: cover;
+  display: flex;
+  color: #01509b;
+  border-radius: 30px;
+  padding: 50px;
+  align-items: center;
+  gap: 60px;
+}
+
+.circle {
+  width: 20px;
+}
+
+.servico-explicacao h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #01509b;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 20px;
+}
+
+.servico-explicacao h2 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #01509b;
+  padding-bottom: 40px;
+}
+
+.servico-explicacao ul {
+  font-family: "Raleway", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #01509b;
+  padding-bottom: 40px;
+}
+
+.img-servico img {
+  border-radius: 50px;
+}
+
+/* ===== SEÇÃO DE ATENDIMENTO (CALL TO ACTION) ===== */
+.section-atendimento {
+  background-color: #01509b;
+  border-color: 1px red solid;
+  color: aliceblue;
+  padding-top: 100px;
+}
+
+.div-atendimento {
+  background-color: #01509b;
+  backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 30px;
+  padding: 50px;
+  border: 2px solid aliceblue;
+}
+
+.div-foto-final {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#img-final {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.div-atendimento h1 {
+  padding-bottom: 20px;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+.div-atendimento h1 strong {
+  color: #ffbb01;
+}
+
+.div-atendimento h2 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: aliceblue;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.button-88 {
+  padding: 15px 30px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: #ffbb01;
+  background-image: linear-gradient(
+    45deg,
+    #ffcb2f 0%,
+    #f09819 51%,
+    #ffd22f 100%
+  );
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.button-88:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* ===== SEÇÃO DE ASSINATURA ===== */
+.sessao-assinatura {
+  background-color: #01509b;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.div-assinatura {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.assinatura-logo {
+  display: flex;
+  align-items: center;
+}
+
+.assinatura-logo h1 {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  width: 60%;
+  margin-bottom: 5px;
+  font-weight: normal;
+  color: aliceblue;
+}
+
+.assinatura-logo img {
+  width: 60px;
+}
+
+.div-direitos h1 {
+  font-family: "Helvetica", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: aliceblue;
+  text-align: right;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+  background-image: linear-gradient(
+    45deg,
+    #ffcb2f 0%,
+    #f09819 51%,
+    #ffd22f 100%
+  );
+  color: white;
+  text-align: center;
+  font-size: 8px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
