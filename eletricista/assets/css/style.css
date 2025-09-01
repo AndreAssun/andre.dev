@@ -17,7 +17,7 @@
 /* ===== SEÇÃO PRINCIPAL/INTRO ===== */
 .section-intro {
   height: 100vh;
-  background: url(/andre.dev/site-eletricista/assets/img/fundo-eletricista.jpg);
+  background: url(/eletricista/assets/img/fundo-eletricista.jpg);
   background-size: cover;
 }
 
@@ -860,4 +860,19 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
+  
+  
+}
+.footer a h1 {
+ list-style: none;
+ color: white;
+}
+
+.footer h1{
+ display: flex;
+ gap: 10px;
+}
+
+.footer img{
+  width: 20px;
 }

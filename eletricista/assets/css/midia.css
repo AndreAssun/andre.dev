@@ -221,7 +221,7 @@
 @media (max-width: 767px) {
   /* Ajustes de imagem de introdução - Mantendo seu código original */
   .section-intro {
-    background: url(/andre.dev/site-eletricista/assets/img/fundo-eletricista-menor.jpg);
+    background: url(//eletricista/assets/img/fundo-eletricista-menor-2.jpg);
     height: 100vh;
     background-size: cover;
   }
@@ -449,7 +449,7 @@
 
 @media (max-width: 1400px) {
   .section-intro {
-    background: url(/andre.dev/site-eletricista/assets/img/fundo-eletricista-menor-2.jpg);
+    background: url(/eletricista/assets/img/fundo-eletricista-menor-2.jpg);
     height: 100vh;
     background-size: cover;
   }
@@ -457,7 +457,8 @@
 
 @media (max-width: 1255px) {
   .section-intro {
-    background-image: url(/assets/img/fundo-eletricista-menor-3.jpg);
+    background-image: url(/eletricista/assets/img/fundo-eletricista-menor-3.jpg);
+    
   }
 
   .main-text h2 {
@@ -471,11 +472,12 @@
 
 @media (max-width: 1300px) {
   .section-intro {
-    background-image: url(/andre.dev/site-eletricista/assets/img/fundo.jpg);
+    background-image: url(/eletricista/assets/img/fundo.jpg);
   }
 
   .main-text {
     align-items: center;
+    padding-top: 60px;
   }
 
   .google{
