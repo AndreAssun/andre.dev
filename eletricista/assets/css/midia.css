@@ -500,6 +500,8 @@
     margin: 0 auto;
     gap: 50px;
   }
+
+  
   
   .main-text h1 {
     width: 100%;
@@ -534,6 +536,10 @@
   #logo a {
     font-size: 10px;
     letter-spacing: 3px;
+  }
+  .servicos h1{
+    display: block;
+
   }
   
   .main-text h2 {
